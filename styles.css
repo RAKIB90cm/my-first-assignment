@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 82%;
+    max-width: 1320px;
+    margin: 0 auto;
+    background-image: url('resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.content{
+    padding: 145px 0;
+    text-align: center;
+}
+
+.content .text{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.content .title {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    padding: 0 127px;
+    max-width: 518px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+/* closed container heading */
