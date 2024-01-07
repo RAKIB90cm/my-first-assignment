@@ -46,7 +46,7 @@
 /* closed container heading */
 
 
-.container-categori{
+.container-categori {
     background: #fff;
     margin-top: 120px;
     margin-bottom: 120px;
@@ -86,7 +86,7 @@
     margin-bottom: 48px;
 }
 
-.img-column{
+.img-column {
     width: 100%;
     text-align: center;
 }
@@ -94,3 +94,67 @@
 
 /* closed container-categori */
 
+
+
+.banner{
+    margin: 0 280px;
+}
+
+
+.midnight-party{
+    background-image: url('resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+}
+
+
+.left-column{
+    width: 526px;
+    padding-top: 140px;
+}
+
+.left-column .title {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+    width: 526px;
+}   
+
+
+.discription {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.btn {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: none;
+    border: none;
+    margin-top: 48px;
+    margin-left: 30px;
+}
+
+
+
+.right-column img{
+    width: 261px;
+    padding: 150px 138px 67px 0px;
+    
+}
