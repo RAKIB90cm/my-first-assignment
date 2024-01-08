@@ -96,12 +96,12 @@
 
 
 
-.banner{
+.banner {
     margin: 0 280px;
 }
 
 
-.midnight-party{
+.midnight-party {
     background-image: url('resources/Vectorrr.png');
     background-repeat: no-repeat;
     display: flex;
@@ -110,7 +110,7 @@
 }
 
 
-.left-column{
+.left-column {
     width: 526px;
     padding-top: 140px;
 }
@@ -125,7 +125,7 @@
     /* 137.5% */
     letter-spacing: 7.04px;
     width: 526px;
-}   
+}
 
 
 .discription {
@@ -153,8 +153,65 @@
 
 
 
-.right-column img{
+.right-column img {
     width: 261px;
     padding: 150px 138px 67px 0px;
-    
+
 }
+
+
+/* closed banner */
+
+
+.container-address {
+    margin: 120px 280px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+
+}
+
+
+.text {
+    margin-bottom: 30px;
+}
+
+
+.sedule {
+    padding: 100px 380px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+
+}
+
+
+.color {
+    color: #F00;
+}
+
+
+.batton {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    background: #F00;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: .4s;
+}
+
+.batton:hover{
+    background-color: blue;
+    border: 1px solid yellowgreen;
+}
+
+/* closed address section */
+
+
