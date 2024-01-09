@@ -1,6 +1,8 @@
+
+
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0 ;
+    padding: 0 ;
 }
 
 .container {
@@ -10,11 +12,12 @@
     background-image: url('resources/Banner\ Image.png');
     background-repeat: no-repeat;
     background-size: cover;
+ /*    filter: brightness(.5); */
 }
 
 
 .content {
-    padding: 145px 0;
+    padding: 170px 0;
     text-align: center;
 }
 
@@ -138,7 +141,7 @@
     /* 166.667% */
 }
 
-.btn {
+.banner .btn {
     color: #FFF;
     text-align: center;
     font-family: Inter;
@@ -149,7 +152,18 @@
     border: none;
     margin-top: 48px;
     margin-left: 30px;
+    cursor: pointer;
 }
+
+
+.banner .btn:hover{
+    border: 1px solid yellowgreen;
+    border-radius: 50px;
+    padding: 10px 30px;
+    color: #F00;
+    background: #070211;
+}
+
 
 
 
@@ -160,7 +174,9 @@
 }
 
 
+
 /* closed banner */
+
 
 
 .container-address {
@@ -176,6 +192,7 @@
 }
 
 
+
 .sedule {
     padding: 100px 380px;
     font-family: Inter;
@@ -185,9 +202,11 @@
 }
 
 
+
 .color {
     color: #F00;
 }
+
 
 
 .batton {
@@ -207,12 +226,20 @@
     transition: .4s;
 }
 
+
+
 .batton:hover {
-    background-color: blue;
-    border: 1px solid yellowgreen;
+    border: 2px solid yellow;
+    color: #F00;
+    background: #070211;
 }
 
+
+
+
 /* closed address section */
+
+
 
 
 .container-offer {
@@ -221,6 +248,7 @@
     margin: 120px 280px;
     align-items: center;
 }
+
 
 
 .left-column h5 {
@@ -253,9 +281,11 @@
 }
 
 
-..right-column {
+
+.right-column {
     align-items: center;
 }
+
 
 
 
@@ -276,10 +306,10 @@
 }
 
 
-.right-column img {
-    margin-top: 43px;
-    margin-right: 130px;
 
+
+.right-column img {
+    max-width: 100%;
 }
 
 
@@ -293,9 +323,13 @@
 }
 
 
+
+
 .text-column {
     text-align: center;
 }
+
+
 
 
 .text-column h5 {
@@ -305,12 +339,16 @@
     font-weight: 500;
 }
 
+
+
+
 .text-column h1 {
     text-align: center;
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
 }
+
 
 
 .text-column p {
@@ -424,6 +462,7 @@
     margin: 120px 280px;
     background: rgba(255, 0, 0, 0.05);
     text-align: center;
+    height: 620px;
 }
 
 
@@ -547,6 +586,7 @@
     /* 166.667% */
     margin-top: 70px;
     margin-bottom: 40px;
+    padding-right: 100px;
 }
 
 
