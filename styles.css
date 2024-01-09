@@ -309,7 +309,7 @@
 
 
 .right-column img {
-    max-width: 100%;
+    max-width: 100px;
 }
 
 
@@ -424,25 +424,26 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 24px;
+    margin-right: 24px;
 }
 
 
 .container-portfolio .pic-1:hover {
-    border: 2px solid gray;
+    border: 2px solid green;
     border-radius: 16px;
 }
 
 
 
 .container-portfolio .pic-2:hover {
-    border: 2px solid gray;
+    border: 2px solid green;
     border-radius: 16px;
 }
 
 
 
 .container-portfolio .pic-3:hover {
-    border: 2px solid gray;
+    border: 2px solid green;
     border-radius: 16px;
 }
 
@@ -451,6 +452,7 @@
 .container-portfolio .div-3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-right: 24px;
 }
 
 
@@ -583,10 +585,9 @@
     font-style: normal;
     font-weight: 500;
     line-height: 40px;
-    /* 166.667% */
     margin-top: 70px;
     margin-bottom: 40px;
-    padding-right: 100px;
+    padding-right: 145px;
 }
 
 
